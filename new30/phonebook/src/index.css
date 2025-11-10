@@ -1,0 +1,21 @@
+/* Сброс базовых стилей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  margin: 5px 0;
+}

@@ -1,0 +1,199 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  padding: 15px 20px;
+  background-color: #007acc;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #005fa3;
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+
+header button:hover {
+  background-color: #004578;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.page h2 {
+  margin-bottom: 15px;
+}
+
+/* Таблица контактов */
+.contacts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contacts-table th,
+.contacts-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.contacts-table th {
+  background-color: #e0e0e0;
+}
+
+.delete-btn {
+  background-color: #ff4d4f;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #d9363e;
+}
+
+/* Форма добавления контакта */
+.contact-form input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form-buttons button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-buttons button:first-child {
+  background-color: #007acc;
+  color: white;
+}
+
+.form-buttons button:first-child:hover {
+  background-color: #005fa3;
+}
+
+.form-buttons button:last-child {
+  background-color: #ccc;
+}
+
+.form-buttons button:last-child:hover {
+  background-color: #aaa;
+}
+
+/* Стиль для страницы входа */
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.login-form button {
+  padding: 8px 15px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #005fa3;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Тёмная тема */
+.app.dark {
+  background-color: #1e1e1e;
+  color: #eee;
+}
+
+.app.dark header {
+  background-color: #333;
+}
+
+.app.dark header button {
+  background-color: #555;
+}
+
+.app.dark header button:hover {
+  background-color: #777;
+}
+
+.app.dark .contacts-table th {
+  background-color: #444;
+}
+
+.app.dark .contacts-table td,
+.app.dark .contacts-table th {
+  border-color: #666;
+}
+
+.app.dark input {
+  background-color: #333;
+  color: #eee;
+  border: 1px solid #555;
+}
+
+.app.dark .delete-btn {
+  background-color: #d9363e;
+}
+
+.app.dark .delete-btn:hover {
+  background-color: #ff4d4f;
+}
+.back-btn {
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #005fa3;
+}
+
+.app.dark .back-btn {
+  background-color: #555;
+}
+
+.app.dark .back-btn:hover {
+  background-color: #777;
+}
+
